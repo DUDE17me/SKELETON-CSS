@@ -1,0 +1,75 @@
+.titre{
+    text-align: center;
+}
+.titre h1{
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.en_tete{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.with{
+    text-align: center;
+}
+.with h5{
+    border-radius: 50px;
+    padding: 50px;
+    font-family: "Bokor", system-ui;
+}
+.item{
+    position: relative;
+    display: inline-block;
+
+}
+.item img{
+    width: 100%;
+    display: block;
+}
+.overlay-text {
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    color: white; 
+}
+.overlay-text h5{
+    margin-left: 50%;
+}
+.tous{
+background-color:   #025159;
+padding: 30px;
+margin-bottom: 50px;
+}
+.tous h3{
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.contenu h5{
+    margin-left: 20%;
+}
+ .make{
+    background-color:  #025159;
+}
+.copy{
+    background-color:   #025159; 
+} 
+/* Footer */
+.Gdiv{
+    background-color: #025159;
+    margin-bottom: 20px;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    padding: 80px;
+ }
+ .footer .divFooter span a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 10px;
+ }
